@@ -68,13 +68,48 @@
     width: 500px;
 }
 
+.ex-6-img:hover{
+  filter: grayscale(100%);
+}
+
+.ex-7-img{
+  transition: 2s;
+}
+.ex-7-img:hover{
+  filter: sepia(50%);
+}
+
+.ex-8-img{transition: 2s;}
+.ex-8-img:hover{
+  filter: grayscale(0.5) sepia(0.5);
+  border-radius: 20px;
+}
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
 }
+
+.ex-9-img{transition: 2s;}
+
+.ex-9-img:hover{
+  transform: scale(1.5, 1.5);
+  filter: sepia(60%) grayscale(40%);
+  border-radius: 20px;
+}
+
 .ex-10-icon {
     font-size: 60px;
+    animation: rotating 1s linear infinite normal;
 }
+
+@keyframes rotating {
+  0% {transform: rotate(1turn);}
+
+}
+
+
+
 .ex-11-icon {
     font-size: 60px;
 }
